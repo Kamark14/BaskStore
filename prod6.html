@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="BaskStore - Sua loja de produtos esportivos. Encontre as melhores ofertas em camisas, tênis e acessórios.">
+    <meta name="keywords" content="BaskStore, loja, esportes, camisas, tênis, acessórios">
+    <meta name="author" content="KaMark14, Kauã Marques, @kamarques_14">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/product.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" type="Img/png" href="Img/Baskstore.png">
+    <title>Bola Nba Wilson - BaskStore</title>
+</head>
+
+<body>
+    <!-- Header (igual ao index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="Img/Baskstore.png" alt="BaskStore Logo"></a>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li class="dropdown">
+                        <a href="#">Produtos <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Camisas</a></li>
+                            <li><a href="#">Tênis</a></li>
+                            <li><a href="#">Bolas</a></li>
+                            <li><a href="#">Acessórios</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Promoções</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                </ul>
+            </nav>
+
+            <div class="user-actions">
+                <a href="login.html" class="login-btn">Login</a>
+                <a href="cadastro.html" class="register-btn">Cadastre-se</a>
+                <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="catg.html">Categorias</a></li>
+                <li><a href="Pages/catg-bolas.html">Bolas</a></li>
+                <li>Bola Nba Wilson</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Detalhes do Produto -->
+    <section class="product-details">
+        <div class="container">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img src="Img/Bola/bola2.jpg" alt="Bola Wilson NBA" id="mainImage">
+                </div>
+                <div class="thumbnail-Img">
+                    <img src="Img/Bola/bola2.jpg" alt="Thumbnail 1" class="thumbnail active">
+                    <img src="Img/Bola/bola21.webp" alt="Thumbnail 2" class="thumbnail">
+                    <img src="Img/Bola/bola23.webp" alt="Thumbnail 3" class="thumbnail">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h1>Bola Nba Wilson</h1>
+                <div class="product-meta">
+                    <span class="sku">Código: BASK-NBA-2024</span>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <a href="#reviews">(42 avaliações)</a>
+                    </div>
+                </div>
+
+                <div class="product-price">
+                    <span class="current-price">R$ 99,90</span>
+                </div>
+
+                <div class="product-description">
+                    <p>Bola Oficial Wilson NBA - Modelo de Competição 2024. A mesma bola utilizada pelos maiores astros
+                        da NBA, desenvolvida com tecnologia de ponta para desempenho profissional e durabilidade
+                        excepcional.</p>
+                    <ul>
+                        <li>Material: Couro sintético premium de alta performance</li>
+                        <li>Tecnologia: Câmera de borracha butílica para melhor retenção de ar</li>
+                        <li>Design: Gráficos oficiais da NBA e logotipos Wilson bordados</li>
+                        <li>Tamanho: Oficial (Tamanho 7 - 29.5")</li>
+                    </ul>
+                </div>
+
+                <div class="product-variations">
+                    <div class="variation">
+                        <label for="size">Tamanho:</label>
+                        <select id="size">
+                            <option value="">Selecione</option>
+                            <option value="P">7</option>
+                        </select>
+                    </div>
+
+                    <div class="variation">
+                        <label for="color">Cor:</label>
+                        <div class="color-options">
+                            <input type="radio" name="color" id="color2">
+                            <label for="color2" style="background-color: #ca3608;" title="Amarelo"></label>
+                        </div>
+                    </div>
+
+                    <div class="variation">
+                        <label for="quantity">Quantidade:</label>
+                        <div class="quantity-selector">
+                            <button class="qty-minus"><i class="fas fa-minus"></i></button>
+                            <input type="number" id="quantity" value="1" min="1" max="10">
+                            <button class="qty-plus"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-actions">
+                    <button class="btn add-to-cart"><i class="fas fa-shopping-cart"></i> Adicionar ao Carrinho</button>
+                    <button class="btn btn-wishlist"><i class="far fa-heart"></i> Favoritos</button>
+                </div>
+
+                <div class="product-shipping">
+                    <div class="shipping-info">
+                        <i class="fas fa-truck"></i>
+                        <div>
+                            <strong>Frete grátis</strong> para todo o Brasil em compras acima de R$ 299,90
+                        </div>
+                    </div>
+                    <div class="shipping-info">
+                        <i class="fas fa-undo"></i>
+                        <div>
+                            <strong>Devolução grátis</strong> em até 30 dias após o recebimento
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Descrição Detalhada -->
+    <section class="product-tabs">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="description">Descrição</button>
+                <button class="tab-btn" data-tab="specs">Especificações</button>
+                <button class="tab-btn" data-tab="reviews">Avaliações</button>
+                <button class="tab-btn" data-tab="shipping">Frete e Entrega</button>
+            </div>
+
+            <div class="tab-content active" id="description">
+                <h2>Detalhes do Produto</h2>
+                <p>A Bola Wilson NBA é o padrão ouro do basquete profissional, agora disponível para você elevar seu
+                    jogo. Desenvolvida em colaboração com a NBA, oferece o mesmo tato, peso e desempenho utilizado pelos
+                    melhores jogadores do mundo.</p>
+                <p>Seu couro sintético premium proporciona excelente aderência em todas as condições de jogo, enquanto a
+                    câmara de ar de borracha butílica mantém a pressão ideal por mais tempo. Os gráficos oficiais da NBA
+                    são impressos com tecnologia resistente ao desgaste.</p>
+                <p>Perfeita para treinos, competições ou como item de colecionador. A escolha definitiva para jogadores
+                    sérios que buscam a autêntica experiência NBA.</p>
+
+                <div class="features-grid">
+                    <div class="feature">
+                        <i class="fas fa-basketball-ball"></i>
+                        <h3>Performance</h3>
+                        <p>Resposta consistente e ótimo controle</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-anchor"></i>
+                        <h3>Durabilidade</h3>
+                        <p>Construção reforçada para uso intensivo</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-hand-paper"></i>
+                        <h3>Conforto</h3>
+                        <p>Superfície com excelente aderência</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-medal"></i>
+                        <h3>Oficial</h3>
+                        <p>Licenciada pela NBA e Wilson</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="specs">
+                <h2>Especificações Técnicas</h2>
+                <table>
+                    <tr>
+                        <th>Marca</th>
+                        <td>Wilson NBA Official</td>
+                    </tr>
+                    <tr>
+                        <th>Modelo</th>
+                        <td>Bola de Competição</td>
+                    </tr>
+                    <tr>
+                        <th>Material</th>
+                        <td>Couro sintético premium</td>
+                    </tr>
+                    <tr>
+                        <th>Tecnologia</th>
+                        <td>Câmara butílica, canais profundos</td>
+                    </tr>
+                    <tr>
+                        <th>Tamanho</th>
+                        <td>7 (29.5" de circunferência)</td>
+                    </tr>
+                    <tr>
+                        <th>Peso</th>
+                        <td>22 oz (aproximadamente 624g)</td>
+                    </tr>
+                    <tr>
+                        <th>Pressão</th>
+                        <td>7.5 a 8.5 PSI recomendado</td>
+                    </tr>
+                    <tr>
+                        <th>Origem</th>
+                        <td>Importado</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tab-content" id="reviews">
+                <h2>Avaliações de Clientes</h2>
+                <div class="review-summary">
+                    <div class="average-rating">
+                        <div class="rating-number">4.5</div>
+                        <div class="rating-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="rating-count">42 avaliações</div>
+                    </div>
+
+                    <div class="rating-bars">
+                        <div class="rating-bar">
+                            <span>5 estrelas</span>
+                            <div class="bar">
+                                <div class="fill" style="width: 70%;"></div>
+                            </div>
+                            <span>70%</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span>4 estrelas</span>
+                            <div class="bar">
+                                <div class="fill" style="width: 20%;"></div>
+                            </div>
+                            <span>20%</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span>3 estrelas</span>
+                            <div class="bar">
+                                <div class="fill" style="width: 5%;"></div>
+                            </div>
+                            <span>5%</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span>2 estrelas</span>
+                            <div class="bar">
+                                <div class="fill" style="width: 3%;"></div>
+                            </div>
+                            <span>3%</span>
+                        </div>
+                        <div class="rating-bar">
+                            <span>1 estrela</span>
+                            <div class="bar">
+                                <div class="fill" style="width: 2%;"></div>
+                            </div>
+                            <span>2%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-list">
+                    <div class="review">
+                        <div class="review-header">
+                            <div class="review-author">João Silva</div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="review-date">15/03/2023</div>
+                        </div>
+                        <div class="review-title">Excelente qualidade</div>
+                        <div class="review-content">
+                            <p>Camisa de ótima qualidade, material leve e confortável. O tamanho corresponde ao que eu
+                                uso normalmente. Chegou antes do prazo e estou muito satisfeito com a compra.</p>
+                        </div>
+                    </div>
+
+                    <div class="review">
+                        <div class="review-header">
+                            <div class="review-author">Maria Oliveira</div>
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="review-date">10/03/2023</div>
+                        </div>
+                        <div class="review-title">Boa, mas poderia ser melhor</div>
+                        <div class="review-content">
+                            <p>Gostei da camisa, mas achei que o tecido poderia ser um pouco mais grosso. De qualquer
+                                forma, o design é lindo e as cores são vibrantes. Recomendo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn" id="write-review">Escreva sua avaliação</button>
+            </div>
+
+            <div class="tab-content" id="shipping">
+                <h2>Frete e Entrega</h2>
+                <div class="shipping-options">
+                    <div class="shipping-option">
+                        <h3>Opções de Envio</h3>
+                        <p>Oferecemos várias opções de envio para atender às suas necessidades. Os prazos de entrega
+                            começam a contar a partir da confirmação do pagamento.</p>
+
+                        <div class="shipping-methods">
+                            <div class="method">
+                                <strong>Correios - Sedex</strong>
+                                <span>2-5 dias úteis</span>
+                                <span>R$ 25,90</span>
+                            </div>
+                            <div class="method">
+                                <strong>Correios - PAC</strong>
+                                <span>7-15 dias úteis</span>
+                                <span>R$ 15,90</span>
+                            </div>
+                            <div class="method highlight">
+                                <strong>Frete Grátis</strong>
+                                <span>5-10 dias úteis</span>
+                                <span>Acima de R$ 299,90</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shipping-option">
+                        <h3>Retirada na Loja</h3>
+                        <p>Você pode retirar seu pedido em nossa loja física em São Paulo/SP. O prazo para retirada é de
+                            1 dia útil após a confirmação do pagamento.</p>
+                        <address>
+                            <strong>BaskStore - Matriz</strong><br>
+                            Rua dos Arcos, 123 - Centro<br>
+                            São Paulo/SP - CEP: 01000-000<br>
+                            Horário: Seg-Sex 10h-19h | Sáb 10h-16h
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Relacionados -->
+    <section class="related-products">
+        <div class="container">
+            <h2 class="section-title">Produtos Relacionados</h2>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Img/Bola/bola1.jpg" alt="Bola">
+                        <div class="product-badge">-20%</div>
+                        <div class="product-actions">
+                            <button class="quick-view">Visualizar</button>
+                            <button class="add-to-cart">Add Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bola Tarmak</h3>
+                        <div class="product-price">
+                            <span class="current-price">R$ 49,90</span>
+                            <span class="old-price">R$ 99,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                    </div>
+                    <a href="#" class="product-link"></a>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Img/Bola/bola3.jpg" alt="Bola">
+                        <div class="product-badge">-50%</div>
+                        <div class="product-actions">
+                            <button class="quick-view">Visualizar</button>
+                            <button class="add-to-cart">Add Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bola Oficial FIBA</h3>
+                        <div class="product-price">
+                            <span class="current-price">R$ 149,90</span>
+                            <span class="old-price">R$ 399,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                    </div>
+                    <a href="#" class="product-link"></a>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Img/Bola/bola4.jpg" alt="Bola">
+                        <div class="product-badge">-20%</div>
+                        <div class="product-actions">
+                            <button class="quick-view">Visualizar</button>
+                            <button class="add-to-cart">Add Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bola Adidas</h3>
+                        <div class="product-price">
+                            <span class="current-price">R$ 89,90</span>
+                            <span class="old-price">R$ 109,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                    </div>
+                    <a href="#" class="product-link"></a>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="Img/Bola/bola5.jpg" alt="Camisa Lakers">
+                        <div class="product-badge">-20%</div>
+                        <div class="product-actions">
+                            <button class="quick-view">Visualizar</button>
+                            <button class="add-to-cart">Add Carrinho</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bola Nike Graffit Edition</h3>
+                        <div class="product-price">
+                            <span class="current-price">R$ 89,90</span>
+                            <span class="old-price">R$ 109,90</span>
+                        </div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(42)</span>
+                        </div>
+                    </div>
+                    <a href="#" class="product-link"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="payment-methods">
+        <img src="Img/logo-visa-2048.png" alt="Visa">
+        <img src="Img/Mastercard-logo.png" alt="Mastercard">
+        <img src="Img/americanexess.png" alt="American Express">
+        <img src="Img/boleto-seeklogo.png" alt="Boleto">
+        <img src="Img/Logo_-_pix_powered_by_Banco_Central_(Brazil,_2020).png" alt="Pix">
+    </div>
+
+    <!-- Footer (igual ao index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>Sobre a BaskStore</h3>
+                    <p>A maior loja de artigos de basquete do Brasil, trazendo os melhores produtos diretamente da NBA
+                        para você.</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Promoções</a></li>
+                        <li><a href="#">Sobre Nós</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Atendimento</h3>
+                    <ul>
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Política de Trocas</a></li>
+                        <li><a href="#">Formas de Pagamento</a></li>
+                        <li><a href="#">Frete e Entrega</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contato</h3>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> Rua Palestra Itália, 500 - Perdizes - São Paulo/SP</p>
+                        <p><i class="fas fa-phone"></i> (11) 1234-5678</p>
+                        <p><i class="fas fa-envelope"></i> contato@baskstore.com.br</p>
+                    </address>
+                    <div class="social-media">
+                        <a href="https://pt-br.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/x"><i class="fab fa-x"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&#xae; 2025 BaskStore. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/script.js"></script>
+    <script src="JS/product.js"></script>
+</body>
+
+</html>
