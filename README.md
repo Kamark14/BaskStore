@@ -14,7 +14,31 @@ Bem-vindo ao repositório do **BaskStore**, a maior loja de artigos de basquete 
 
 ## 📂 Estrutura do Projeto
 
-BaskStore/ ├── CSS/ # Arquivos de estilo │ ├── auth.css # Estilos para páginas de autenticação │ ├── form.css # Estilos para formulários │ ├── product.css # Estilos para páginas de produtos │ ├── responsive.css # Estilos responsivos │ └── styles.css # Estilos globais ├── JS/ # Scripts JavaScript │ ├── auth.js # Lógica de autenticação │ ├── form.js # Lógica para formulários │ ├── product.js # Funcionalidades de produtos │ ├── script.js # Scripts gerais │ └── slideshow.js # Lógica do slideshow ├── Img/ # Imagens do site ├── agradecimento.html # Página de agradecimento ├── cadastro.html # Página de cadastro ├── login.html # Página de login ├── index.html # Página inicial ├── catg.html # Página de categorias ├── prod1.html # Página de detalhes do produto 1 ├── README.md # Documentação do projeto
+### Diretórios e Arquivos
+
+#### CSS
+- `auth.css`: Estilos para páginas de autenticação.
+- `form.css`: Estilos para formulários.
+- `product.css`: Estilos para páginas de produtos.
+- `responsive.css`: Estilos responsivos.
+- `styles.css`: Estilos globais.
+
+#### JS
+- `auth.js`: Lógica de autenticação.
+- `form.js`: Lógica para formulários.
+- `product.js`: Funcionalidades de produtos.
+- `script.js`: Scripts gerais.
+- `slideshow.js`: Lógica do slideshow.
+
+#### Outros Arquivos
+- `Img/`: Diretório contendo imagens do site.
+- `agradecimento.html`: Página de agradecimento.
+- `cadastro.html`: Página de cadastro.
+- `login.html`: Página de login.
+- `index.html`: Página inicial.
+- `catg.html`: Página de categorias.
+- `prod1.html`: Página de detalhes do produto 1.
+- `README.md`: Documentação do projeto.
 
 
 ## 🚀 Tecnologias Utilizadas
