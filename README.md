@@ -49,16 +49,16 @@ O design do site foi pensado para oferecer uma experiência de navegação fluid
 ### 4. **Avaliações de Produtos**
 - Exibição de avaliações com estrelas e comentários de clientes.
 
-## 📸 Screenshots
+## 📸 Previews
 
 ### Página Inicial
-![Página Inicial](README.md/colecoes%20de%20camisas.png)
+
 
 ### Detalhes do Produto
-![Detalhes do Produto](README.md/dtls%20do%20produto.jpeg)
+
 
 ### Avaliações
-![Avaliações](README.md/avaliacoes%20do%20prod.jpeg)
+
 
 ## 📄 Como Executar o Projeto
 
